@@ -6,5 +6,16 @@ Gene fusions, which hybrid two or more independent genes, always play a driving 
 Python (version 3) <br>
 Samtools <br>
 Minimap2 <br>
+## Download
+```sh
+git clone 
+```
 ## Quick start
-### 
+### Start from CCS read
+```sh
+python fusion_detector.py -a -f path to the CCS read -r path to the GTF file -o output folder
+```
+### Start from alignment file
+```sh
+python fusion_detector.py -f path to the bam file -r path to the GTF file -o output folder 
+```

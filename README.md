@@ -8,14 +8,14 @@ Samtools <br>
 Minimap2 <br>
 ## Download
 ```sh
-git clone 
+git clone https://github.com/wangyiqing50/Fulloy.git
 ```
 ## Quick start
 ### Start from CCS read
 ```sh
-python fusion_detector.py -a -f path to the CCS read -r path to the GTF file -o output folder
+python fusion_detector.py -a -f path_to_the_CCS_read -r path_to_the_GTF_file -o output_folder
 ```
 ### Start from alignment file
 ```sh
-python fusion_detector.py -f path to the bam file -r path to the GTF file -o output folder 
+python fusion_detector.py -f path_to_the_bam_file -r path_to_the_GTF_file -o output_folder 
 ```

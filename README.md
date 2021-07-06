@@ -12,7 +12,7 @@ git clone https://github.com/wangyiqing50/Fulloy.git
 ```
 ## Install
 ```
-pip instal -r requisites.txt
+pip install -r requisites.txt
 ```
 ## Quick start
 ### Start from CCS read
